@@ -16,4 +16,14 @@ const Button = ({
   )
 }
 
-export default Button
+const ButtonGroup = ({
+  children
+}) => {
+  
+  return (
+    <div class="btn-group" role="group" aria-label="Basic example">
+      { children }
+    </div>
+  )
+}
+export { Button, ButtonGroup }
